@@ -1,0 +1,106 @@
+{
+  "company": "Growth Agency",
+  "category": "Lead Generation & Outreach Automation",
+  "title": "Lead Scraping & Automated Outreach System",
+  "subtitle": "Telegram-Triggered Data Scraping, Email Verification & Multi-Stage Follow-ups",
+  "description": "A fully automated lead generation and outreach system that pulls business data, verifies emails, and runs multi-stage personalized follow-ups without human effort.",
+  "metric": {
+    "label": "in Productivity",
+    "outcome": "10x more leads processed with the same team"
+  },
+  "problemStatement": {
+    "main": "The client was exhausted by manually scraping websites, copying leads into spreadsheets, sending emails one by one, and tracking follow-ups. This resulted in wasted hours, missed opportunities, inconsistent outreach, and low scalability.",
+    "points": [
+      {
+        "title": "MANUAL SCRAPING",
+        "description": "Visiting websites individually and manually extracting lead data."
+      },
+      {
+        "title": "TEDIOUS EMAILING",
+        "description": "Copy-pasting and sending emails to each prospect manually."
+      },
+      {
+        "title": "MISSED FOLLOW-UPS",
+        "description": "Leads were forgotten due to lack of a proper tracking system."
+      },
+      {
+        "title": "INEFFICIENT PROCESS",
+        "description": "High effort produced low volume and caused team burnout."
+      }
+    ]
+  },
+  "techStack": [
+    "n8n (Core Automation Engine)",
+    "Telegram API (User Interface)",
+    "Web Scrapers",
+    "Google Sheets (Lead Database)",
+    "Email Validation API",
+    "SMTP / Email Sending Service"
+  ],
+  "timeline": [
+    {
+      "week": 1,
+      "title": "WORKFLOW SETUP",
+      "description": "Set up n8n environment, Telegram bot, and scraping workflows."
+    },
+    {
+      "week": 3,
+      "title": "OUTREACH SYSTEM",
+      "description": "Integrated email validation, outreach logic, and Google Sheets syncing."
+    },
+    {
+      "week": 6,
+      "title": "SCALE",
+      "description": "Tested follow-ups and scaled system to process 5,000+ leads per day."
+    }
+  ],
+  "pipeline": [
+    {
+      "step": 1,
+      "title": "Telegram Lead Input",
+      "description": "The client sends business niche and location via Telegram which triggers the automation."
+    },
+    {
+      "step": 2,
+      "title": "Automated Scraping",
+      "description": "n8n scrapes business data from the web and extracts emails, phone numbers, and company details."
+    },
+    {
+      "step": 3,
+      "title": "Data Organization",
+      "description": "All scraped data is cleaned and synced into Google Sheets as a live lead database."
+    },
+    {
+      "step": 4,
+      "title": "Email Validation & Outreach",
+      "description": "Emails are verified and valid leads enter a personalized multi-step email sequence."
+    },
+    {
+      "step": 5,
+      "title": "Smart Follow-ups",
+      "description": "Automated follow-ups are sent on Day 2, Day 7, and Day 14 without any manual intervention."
+    }
+  ],
+  "outcomes": [
+    {
+      "metric": "Time Saved",
+      "outcome": "Saved 40+ hours per week in manual scraping and emailing."
+    },
+    {
+      "metric": "Lead Conversion",
+      "outcome": "Increased conversion rate from 15% to 20%."
+    },
+    {
+      "metric": "Scraping Capacity",
+      "outcome": "Able to scrape over 5,000 leads per day."
+    },
+    {
+      "metric": "Email Volume",
+      "outcome": "Handles up to 3,000 automated emails per day."
+    },
+    {
+      "metric": "Operational Efficiency",
+      "outcome": "Achieved 10x more output with the same team size."
+    }
+  ]
+}
